@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case-Register User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8a9d2d5-3fa3-43c8-8135-e64a22f4dda1</testCaseGuid>
+   <variable>
+      <defaultValue>'http://demo.nopcommerce.com'</defaultValue>
+      <description></description>
+      <id>9743a817-33da-4429-95c1-0516bd1edaf9</id>
+      <masked>false</masked>
+      <name>URL_NopCommerce</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kennedy'</defaultValue>
+      <description></description>
+      <id>192432ef-13ad-4b9b-9ab1-ba70e09722d6</id>
+      <masked>false</masked>
+      <name>First_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Koech'</defaultValue>
+      <description></description>
+      <id>4d2dc27b-9be0-4b73-96da-59466b46e757</id>
+      <masked>false</masked>
+      <name>Last_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'kkoech@gmail.com'</defaultValue>
+      <description></description>
+      <id>5589efe5-c67e-4a42-a31a-9011b4be0eca</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kenya Istitute Of Commerce'</defaultValue>
+      <description></description>
+      <id>d76c6528-82d2-43ac-8c4e-4c156911f7c4</id>
+      <masked>false</masked>
+      <name>Company_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>cc0cfa1a-21e5-4976-a5e3-251bd844db03</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>516c2bf1-d233-4aa5-9b1b-8c7ef7210e1a</id>
+      <masked>false</masked>
+      <name>Confirm_Password</name>
+   </variable>
+</TestCaseEntity>
