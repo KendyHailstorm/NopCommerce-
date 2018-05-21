@@ -19,12 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/verify Login'), [('Varable_Url') : 'http://demo.nopcommerce.com', ('Variable_Username') : 'kkoech@gmail.com'
+WebUI.callTestCase(findTestCase('Login/verify_Login'), [('Varable_Url') : 'http://demo.nopcommerce.com', ('Variable_Username') : 'kkoech@gmail.com'
         , ('Variable_Password') : 'password', ('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Remove NOKIA LUMIA 1020 From Cart/Link-Shopping Cart'))
+WebUI.click(findTestObject('Remove NOKIA LUMIA 1020 From Cart/link_Shopping Cart'))
 
-WebUI.click(findTestObject('Remove NOKIA LUMIA 1020 From Cart/Radio-RemoveFrom Cart'))
+WebUI.click(findTestObject('Remove NOKIA LUMIA 1020 From Cart/radio button_RemoveFrom Cart'))
 
-WebUI.click(findTestObject('Remove NOKIA LUMIA 1020 From Cart/Button-Update Cart'))
+WebUI.click(findTestObject('Remove NOKIA LUMIA 1020 From Cart/button_Update Cart'))
 

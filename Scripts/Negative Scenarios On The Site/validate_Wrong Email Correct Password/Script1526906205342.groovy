@@ -19,10 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/verify_Login'), [('Varable_Url') : 'http://demo.nopcommerce.com', ('Variable_Username') : 'kkoech@gmail.com'
-        , ('Variable_Password') : 'password', ('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser(variable_Url)
 
-WebUI.click(findTestObject('Logout/link_Logout'))
+WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Logout/alert_Element Login'), 1)
+WebUI.click(findTestObject('Registration-Of-User/Login/link_Login '))
+
+WebUI.setText(findTestObject('Registration-Of-User/Login/input_Email Address'), variable_Wrong_Email)
+
+WebUI.setText(findTestObject('Registration-Of-User/Login/input_Password'), variable_Correct_Password)
+
+WebUI.click(findTestObject('Registration-Of-User/Login/button_Login'))
 

@@ -19,10 +19,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/verify_Login'), [('Varable_Url') : 'http://demo.nopcommerce.com', ('Variable_Username') : 'kkoech@gmail.com'
-        , ('Variable_Password') : 'password', ('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser(variable_url)
 
-WebUI.click(findTestObject('Logout/link_Logout'))
+WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Logout/alert_Element Login'), 1)
+WebUI.click(findTestObject('Registration-Of-User/link_RegisterUser'))
+
+WebUI.click(findTestObject('Registration-Of-User/radio buton_Select Gender', [('gender') : 'M']))
+
+WebUI.setText(findTestObject('Registration-Of-User/input_First Name'), variable_Fname)
+
+WebUI.setText(findTestObject('Registration-Of-User/input_Last Name'), variable_Lname)
+
+WebUI.click(findTestObject('Registration-Of-User/click_input Date Of Birth Day'))
+
+WebUI.click(findTestObject('Registration-Of-User/click_Input Date Of Birth Month'))
+
+WebUI.click(findTestObject('Registration-Of-User/click_Input Date Of Birth Year', [('date') : 'May']))
+
+WebUI.setText(findTestObject('Registration-Of-User/input_Email Address', [('date') : '8']), variable_Email)
+
+WebUI.setText(findTestObject('Registration-Of-User/input_Company Name'), variable_Companyname)
+
+WebUI.setText(findTestObject('Registration-Of-User/input_Password'), variable_password)
+
+WebUI.setText(findTestObject('Registration-Of-User/input_Confirm Password'), variable_confirm_Password)
+
+WebUI.click(findTestObject('Registration-Of-User/button_Register User'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Registration-Of-User/button_Continue'))
 

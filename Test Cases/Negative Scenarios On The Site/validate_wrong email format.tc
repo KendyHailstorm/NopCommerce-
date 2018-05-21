@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_wrong email format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccaf6699-c2cc-43b9-b2da-db05692ce6e3</testCaseGuid>
+   <variable>
+      <defaultValue>'http://demo.nopcommerce.com'</defaultValue>
+      <description></description>
+      <id>2660aa87-1a39-4d0e-8b7c-8e02c0eb47c9</id>
+      <masked>false</masked>
+      <name>variable_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kennedy'</defaultValue>
+      <description></description>
+      <id>001b9d83-d234-4b34-8824-89050ef803c8</id>
+      <masked>false</masked>
+      <name>variable_Fname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Koech'</defaultValue>
+      <description></description>
+      <id>6e46eedf-ada0-4690-bc1b-f4dcb33cf32b</id>
+      <masked>false</masked>
+      <name>variable_Lname</name>
+   </variable>
+   <variable>
+      <defaultValue>'kennedy.koech'</defaultValue>
+      <description></description>
+      <id>63592b6b-6746-488f-971a-3c562bdcb05a</id>
+      <masked>false</masked>
+      <name>variable_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nairobi Kenya'</defaultValue>
+      <description></description>
+      <id>8eb5916e-3b94-4539-ac78-5f5808523438</id>
+      <masked>false</masked>
+      <name>variable_Companyname</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>d40b8c28-f776-4c60-be62-08d597cae4bb</id>
+      <masked>false</masked>
+      <name>variable_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>05a174bd-7300-4831-ab0a-994dab080107</id>
+      <masked>false</masked>
+      <name>variable_confirm_Password</name>
+   </variable>
+</TestCaseEntity>

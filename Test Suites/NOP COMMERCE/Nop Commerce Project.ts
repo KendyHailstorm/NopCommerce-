@@ -14,7 +14,7 @@
       <guid>7caf3575-ebf0-4a55-bb71-2ec61dedcc48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration/Test Case-Register User</testCaseId>
+      <testCaseId>Test Cases/Registration/verify_User Registration</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +62,7 @@
       <guid>d8096bed-79a4-417d-8c99-47179c7842fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check Out/verify Checkout</testCaseId>
+      <testCaseId>Test Cases/Check Out/verify_Checkout</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -128,7 +128,7 @@
       <guid>65f6aa47-cf6c-4fe3-81b9-b818918ba9b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/verify Login</testCaseId>
+      <testCaseId>Test Cases/Login/verify_Login</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -158,7 +158,7 @@
       <guid>8524f8a0-fe4c-4845-9bc2-ad17cb542b01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Negative Scenarios On The Site/Scenario-Wrong Email Correct Password</testCaseId>
+      <testCaseId>Test Cases/Negative Scenarios On The Site/validate_Wrong Email Correct Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -182,7 +182,7 @@
       <guid>b983d605-26de-4f8a-9e38-bad3ecc910d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Adding Nokia Lomia To Cart/Verify Nokia Lumia Added To Cart</testCaseId>
+      <testCaseId>Test Cases/Adding Nokia Lomia To Cart/verify_Add Nokia Lumia  To Cart </testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -194,7 +194,7 @@
       <guid>5f9f5580-521c-4f19-8c31-09a5fe49fd8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify Adding Flower Bracelet to Cart</testCaseId>
+      <testCaseId>Test Cases/verify_Adding Flower Bracelet to Cart</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -22,7 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Login/verify_Login'), [('Varable_Url') : 'http://demo.nopcommerce.com', ('Variable_Username') : 'kkoech@gmail.com'
         , ('Variable_Password') : 'password', ('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Logout/link_Logout'))
+WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Logout/alert_Element Login'), 1)
+WebUI.setText(findTestObject('Verify Adding Flower Girl  To CArt/input_Search Field'), Variable_Flower_Girl_Brace)
+
+WebUI.click(findTestObject('Verify Adding Flower Girl  To CArt/button_Search'))
+
+WebUI.click(findTestObject('Verify Adding Flower Girl  To CArt/button_Add Flower Girl Bracelet to Cart'))
+
+WebUI.verifyElementPresent(findTestObject('Verify Adding Flower Girl  To CArt/alert_element Added'), 1)
 
