@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verify_Adding Flower Bracelet to Cart</name>
+   <name>verify Add Flower Bracelet To cart</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>831b5716-e0ef-4943-9cb6-c36a78a93fcf</testCaseGuid>
+   <testCaseGuid>eebdbb9f-7346-424e-b267-6a4304f66729</testCaseGuid>
    <variable>
       <defaultValue>'Flower Girl Bracelet'</defaultValue>
       <description></description>
-      <id>a67bff91-9631-436e-b75e-3ce996254680</id>
+      <id>4ba0aba6-a18f-4b9b-8686-11ae4e288d98</id>
       <masked>false</masked>
-      <name>Variable_Flower_Girl_Brace</name>
+      <name>Flower</name>
    </variable>
 </TestCaseEntity>

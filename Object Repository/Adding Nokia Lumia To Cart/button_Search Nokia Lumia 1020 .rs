@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_ClickOn Nokia Lumia</name>
+   <name>button_Search Nokia Lumia 1020 </name>
    <tag></tag>
-   <elementGuidId>f1a3939c-3f84-4e43-bccf-e9a9f965b389</elementGuidId>
+   <elementGuidId>1fd58632-7885-494f-adef-934485253748</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//input[@value='Search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'Nokia Lumia 1020')]</value>
+      <value>//input[@value='Search']</value>
    </webElementProperties>
 </WebElementEntity>

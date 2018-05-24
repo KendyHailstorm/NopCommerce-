@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_CellPhones </name>
+   <name>button_Add  Nokia Lumia To cart</name>
    <tag></tag>
-   <elementGuidId>ef354023-05ab-4dd6-a934-e646595a6787</elementGuidId>
+   <elementGuidId>f1a3939c-3f84-4e43-bccf-e9a9f965b389</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//input[@class='button-2 product-box-add-to-cart-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@href,'/cell-phones')]</value>
+      <value>//input[@class='button-2 product-box-add-to-cart-button']</value>
    </webElementProperties>
 </WebElementEntity>

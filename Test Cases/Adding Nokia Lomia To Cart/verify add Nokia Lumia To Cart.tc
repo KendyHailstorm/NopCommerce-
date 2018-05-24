@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify add Nokia Lumia To Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3f7da3d-edcc-4cf5-b19f-c4e50ff18e6a</testCaseGuid>
+   <variable>
+      <defaultValue>'Nokia Lumia 1020'</defaultValue>
+      <description></description>
+      <id>d50ff443-44ea-4fe6-9723-d3a91252d6e9</id>
+      <masked>false</masked>
+      <name>Nokia_Lumia</name>
+   </variable>
+</TestCaseEntity>

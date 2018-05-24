@@ -22,13 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Login/verify_Login'), [('Varable_Url') : 'http://demo.nopcommerce.com', ('Variable_Username') : 'kkoech@gmail.com'
         , ('Variable_Password') : 'password', ('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Verify Adding Flower Girl  To CArt/input_Search Field'), Nokia_Lumia)
 
-WebUI.setText(findTestObject('Verify Adding Flower Girl  To CArt/input_Search Field'), Variable_Flower_Girl_Brace)
+WebUI.click(findTestObject('Adding Nokia Lumia To Cart/button_Search Nokia Lumia 1020 '))
 
-WebUI.click(findTestObject('Verify Adding Flower Girl  To CArt/button_Search'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Verify Adding Flower Girl  To CArt/button_Add Flower Girl Bracelet to Cart'))
+WebUI.click(findTestObject('Adding Nokia Lumia To Cart/button_Add  Nokia Lumia To cart'))
 
-WebUI.verifyElementPresent(findTestObject('Verify Adding Flower Girl  To CArt/alert_element Added'), 1)
+WebUI.verifyElementPresent(findTestObject('Adding Nokia Lumia To Cart/alert_Element'), 0)
 

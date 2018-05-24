@@ -4,6 +4,7 @@
    <name>Nop Commerce Project</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-24T14:20:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -56,6 +57,90 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>516c2bf1-d233-4aa5-9b1b-8c7ef7210e1a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65f6aa47-cf6c-4fe3-81b9-b818918ba9b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/verify_Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f820c86-93bc-411a-bbb2-055ec6a6f367</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>902a1580-a1ac-434a-b5bc-d17916989414</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>861857da-46f8-49a8-ba7d-fc6b176e195c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2951c68d-9ba9-43f8-8342-427e2d8cb89f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44829d9d-74df-43f3-a4f5-6f395c752a6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Adding Nokia Lomia To Cart/verify add Nokia Lumia To Cart</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d50ff443-44ea-4fe6-9723-d3a91252d6e9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b410c7c7-dd9f-4d2a-b2fd-ff56a60fd491</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Verify Add Flower Girl Bracelet To Cart/verify Add Flower Bracelet To cart</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ba0aba6-a18f-4b9b-8686-11ae4e288d98</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d9cb3050-1eef-402b-8a82-c84e5f79d409</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Verify Remove Nokia Lumia From Cart/Verify Remove Nokia Lumia From Cart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8524f8a0-fe4c-4845-9bc2-ad17cb542b01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative Scenarios On The Site/validate_Wrong Email Correct Password</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>51b41da5-f350-4c18-9e8b-caab9b91f1cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b28b629-5698-4807-b09a-0b0f2d90baf5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31e70d85-7823-48af-ba81-920a9f6cf9e6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -125,93 +210,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>65f6aa47-cf6c-4fe3-81b9-b818918ba9b7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/verify_Login</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8f820c86-93bc-411a-bbb2-055ec6a6f367</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>902a1580-a1ac-434a-b5bc-d17916989414</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>861857da-46f8-49a8-ba7d-fc6b176e195c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2951c68d-9ba9-43f8-8342-427e2d8cb89f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8524f8a0-fe4c-4845-9bc2-ad17cb542b01</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Negative Scenarios On The Site/validate_Wrong Email Correct Password</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>51b41da5-f350-4c18-9e8b-caab9b91f1cd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1b28b629-5698-4807-b09a-0b0f2d90baf5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>31e70d85-7823-48af-ba81-920a9f6cf9e6</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b983d605-26de-4f8a-9e38-bad3ecc910d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Adding Nokia Lomia To Cart/verify_Add Nokia Lumia  To Cart </testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6d5ad293-b07f-42d9-bf59-b090179e2b2a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5f9f5580-521c-4f19-8c31-09a5fe49fd8d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/verify_Adding Flower Bracelet to Cart</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a67bff91-9631-436e-b75e-3ce996254680</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a7138c43-2910-4424-918d-560d6fb5524a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Verify Logout/Verify-Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d9cb3050-1eef-402b-8a82-c84e5f79d409</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify Remove Nokia Lumia From Cart/Verify Remove Nokia Lumia From Cart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

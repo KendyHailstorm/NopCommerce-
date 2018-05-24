@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Verify ChekOut/button_Checkout'))
 
 WebUI.click(findTestObject('Verify ChekOut/Billing Address/drop down_Country'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Verify ChekOut/Billing Address/input_Billing Address1'), variable_Address1)
 
 WebUI.setText(findTestObject('Verify ChekOut/Billing Address/input_Billing Address2'), variable_Address2)
@@ -73,6 +75,4 @@ WebUI.click(findTestObject('Verify ChekOut/Payment Information/drop down_Expirat
 WebUI.setText(findTestObject('Verify ChekOut/Payment Information/Input-Card Code'), variable_Card_Code)
 
 WebUI.click(findTestObject('Verify ChekOut/Payment Information/button_Continue'))
-
-WebUI.click(findTestObject('Verify ChekOut/Payment Information/Confirmation/Button-Confirm All'))
 
